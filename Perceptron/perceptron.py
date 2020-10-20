@@ -1,5 +1,6 @@
 from sklearn.linear_model import Perceptron
 import pandas as pd
+from utils.plot import plot_distribution
 
 def perceptron_model(training_file):
   df = pd.read_csv(training_file, header=None)
